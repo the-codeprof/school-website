@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+
+
+
+
+    <meta charset="UTF-8" />
+
+    <meta name="google-site-verification" content="x2aDqIbht0WeChSdNhIpHpXEOfhpDmFys6CjMYzUm9o" />
+    <meta name="Description" content="Codeprof Computer School provides professional computer training for individuals, small businesses, corporate entities and organisations." />
+
+    <meta name="Keywords" content="Codeprof computer school codeprof computer academy, software engineering, it training institute, computer institute, computer training, computer litracy training, computer courses" />
+    <!-- Google hreflang attribute starts -->
+    <link rel="alternate" href="https://codeprof.net/" hreflang="en-ng" />
+    <!-- Google hreflang attribute ends -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="Keywords" content="Codeprof computer academy codeprof ICT HUB, codeprof computer school, codeprof tutors, coding skills, programming languages, computer school in lagos, how to learn coding software technologies, website design/development, codeprof computer skills, best training school in nigeria, best training school in lagos, codeprof is the best, Information technologies, Communication technology, mobile applications development, initial-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Codeprof Computer Academy Online Tutorial</title>
+    <link rel="shortcut icon" type="image/png" href="Stock/favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Open+Sans+Condensed:300&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Satisfy&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" />
+    <style>
+        /* dashboard */
+        
+        .icon-bar {
+            width: 100%;
+            /* Full-width */
+            background-color: rgb(20, 104, 104);
+            /* Dark-grey background */
+            overflow: auto;
+            /* Overflow due to float */
+        }
+        
+        .icon-bar a {
+            float: left;
+            /* Float links side by side */
+            text-align: center;
+            /* Center-align text */
+            width: 20%;
+            /* Equal width (5 icons with 20% width each = 100%) */
+            padding: 8px;
+            /* Some top and bottom padding */
+            transition: all 0.3s ease;
+            /* Add transition for hover effects */
+            color: white;
+            /* White text color */
+            font-size: 20px;
+            /* Increased font size */
+        }
+        
+        .icon-bar a:hover {
+            background-color: darkcyan;
+            /* Add a hover color */
+        }
+        
+        .active {
+            background-color: #e92e45;
+            /* Add an active/current color */
+        }
+        
+        .active {
+            background-color: #e92e45;
+            /* Add an active/current color */
+        }
+        
+        * {
+            box-sizing: border-box
+        }
+        /* Style the tab */
+        
+        .tab {
+            float: left;
+            border: 1px solid #ccc;
+            background-color: #f1f1f1;
+            width: 20%;
+            height: 100vh;
+        }
+        /* Style the buttons that are used to open the tab content */
+        
+        .tab button {
+            display: block;
+            border-bottom: 1px solid white !important;
+            background-color: darkcyan !important;
+            color: white;
+            padding: 8px 16px;
+            width: 100%;
+            border: none;
+            outline: none;
+            text-align: left;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        /* Change background color of buttons on hover */
+        
+        .tab button:hover {
+            background-color: rgb(37, 216, 216) !important;
+            color: #222 !important;
+        }
+        /* Create an active/current "tab button" class */
+        
+        .tab button.active {
+            background-color: rgb(3, 88, 88);
+        }
+        /* Style the tab content */
+        
+        .tabcontent {
+            float: left;
+            padding: 0px 12px;
+            border: 1px solid #ccc;
+            width: 80%;
+            border-left: none;
+            height: 100vh;
+            background: white;
+        }
+        /* end of dashboard */
+        
+        @media screen and (max-width: 400px) {
+            .icon-bar a {
+                float: left;
+                /* Float links side by side */
+                text-align: center;
+                /* Center-align text */
+                width: 20%;
+                /* Equal width (5 icons with 20% width each = 100%) */
+                padding: 8px;
+                /* Some top and bottom padding */
+                transition: all 0.3s ease;
+                /* Add transition for hover effects */
+                color: white;
+                /* White text color */
+                font-size: 15px;
+                /* Increased font size */
+            }
+            .navbar-brand {
+                font-family: "Pacifico";
+                font-size: 25px;
+                color: white !important;
+                text-align: right !important;
+                width: 100%;
+            }
+            .tabcontent {
+                float: left;
+                padding: 0px 12px;
+                border: 1px solid #ccc;
+                width: 70%;
+                border-left: none;
+                height: 100vh;
+                background: white;
+            }
+            .tab {
+                float: left;
+                border: 1px solid #ccc;
+                background-color: #f1f1f1;
+                width: 30%;
+                min-height: 300px;
+            }
+            .tab button {
+                display: block;
+                border-bottom: 1px solid white !important;
+                background-color: darkcyan !important;
+                color: white;
+                padding: 8px 5px;
+                width: 100%;
+                border: none;
+                outline: none;
+                text-align: left;
+                cursor: pointer;
+                transition: 0.3s;
+                font-size: 15px;
+            }
+            .tab button:hover {
+                background-color: rgb(37, 216, 216) !important;
+                color: #222 !important;
+                cursor: pointer !important;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+
+    <div class=" social top-social float-right w-100">
+        <div class=" d-flex flex-row justify-content-right float-right top-icon-box rightbox">
+            <a href=" https://web.facebook.com/CodeProf-ICT-HUB-462226311010929/ "><i
+                    class=" fab fa-facebook m-2 "></i></a>
+            <a href=" https://twitter.com/CodeprofA"><i class=" fab fa-twitter m-2 "></i></a>
+            <a href="  https://www.instagram.com/codeprof_computer_academy"><i class=" fab fa-instagram m-2 "></i></a>
+            <a href=" https://www.youtube.com/channel/UCs0UFuw5z8hwNa5FPRsc_Fg "><i
+                    class=" fab fa-youtube m-2 "></i></a>
+            <a href=" https://www.linkedin.com/company/codeprof-computer-academy/about/?viewAsMember=true "><i
+                    class=" fab fa-linkedin m-2 "></i></a>
+            <a href="https://api.whatsapp.com/send?phone=2348097350962"> <i class=" fab fa-whatsapp m-2 "></i></a>
+
+        </div>
+
+        <div class=" d-flex flex-row justify-content-left float-left top-icon-box leftbox">
+            <i class=" fas fa-phone m-2 " style="border:none !important; font-size:15px !important; color:white !important;"><span
+                    class="text-white"> &nbsp;
+                    +234 90 660 969 55 </span></i>
+
+
+
+        </div>
+    </div>
+
+
+
+    <header>
+
+
+
+        <nav class="navbar  navbar-expand-lg   navbar-light bg-white">
+            <a href="#" class="navbar-brand ml-3"><img src="Stock/realcodeproflogo.png" width="50" height="50" alt="">
+
+            </a>
+            <div class="container-fluid">
+                <!-- Add icon library -->
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+                <div class="icon-bar">
+                    <a class="active" href="https://codeprof.net"><i class="fa fa-home"></i></a>
+                    <a href="#"><i class="fa fa-user"></i></a>
+                    <a href="/contactus.html#sendmessage"><i class="fa fa-envelope"></i></a>
+                    <a href="https://api.whatsapp.com/send?phone=2348097350962"><i class="fa fa-whatsapp"></i></a>
+                    <a href="https://codeprof.net"><i class="fa fa-close"></i></a>
+                </div>
+            </div>
+
+        </nav>
+
+
+    </header>
+
+    <main>
+
+        <div class="tab">
+            <button class="tablinks" onclick="openCity(event, 'welcome')">Welcome</button>
+            <button class="tablinks" onclick="openCity(event, 'html')" disabled>HTML</button>
+            <button class="tablinks" onclick="openCity(event, 'css')" disabled>CSS</button>
+            <button class="tablinks" onclick="openCity(event, 'bootstrap')" disabled>Bootstrap</button>
+            <button class="tablinks" onclick="openCity(event, 'sass')" disabled>Sass</button>
+            <button class="tablinks" onclick="openCity(event, 'javascript')" disabled>Javascript</button>
+            <button class="tablinks" onclick="openCity(event, 'jquery')" disabled>Jquery</button>
+            <button class="tablinks" onclick="openCity(event, 'react')" disabled>React</button>
+            <button class="tablinks" onclick="openCity(event, 'angular')" disabled>Angular js</button>
+            <button class="tablinks" onclick="openCity(event, 'json')" disabled>JSON</button>
+            <button class="tablinks" onclick="openCity(event, 'ajax')" disabled>AJAX</button>
+            <button class="tablinks" onclick="openCity(event, 'sql')" disabled>SQL</button>
+            <button class="tablinks" onclick="openCity(event, 'php')" disabled>PHP</button>
+            <button class="tablinks" onclick="openCity(event, 'asp')" disabled>ASP.Net</button>
+            <button class="tablinks" onclick="openCity(event, 'node')" disabled>Node.js</button>
+            <button class="tablinks" onclick="openCity(event, 'python')" disabled>Python</button>
+            <button class="tablinks" onclick="openCity(event, 'java')" disabled>Java</button>
+            <button class="tablinks" onclick="openCity(event, 'c++')" disabled>C++</button>
+            <button class="tablinks" onclick="openCity(event, 'c#')" disabled>C#</button>
+            <button class="tablinks" onclick="openCity(event, 'datascience')" disabled>Data Science</button>
+            <button class="tablinks" onclick="openCity(event, 'ai')" disabled>Artificial Intelligence</button>
+
+        </div>
+
+        <div id="welcome" class="tabcontent">
+            <br>
+            <h3>Welcome to Codeprof Online ICT Training Platform. </h3>
+            <p> <br> We are currently updating all our online course contents . We always want to ensure that our online course contents are updated from time to time in order to keep our studens ahead of others. Please bear with us.
+            </p>
+
+        </div>
+
+        <div id="html" class="tabcontent" style="display:none;">
+            <h3>HTML</h3>
+            <p>Welcome to HTML online class.
+            </p>
+
+        </div>
+
+        <div id="css" class="tabcontent" style="display:none;">
+            <h3>CSS</h3>
+            <p>Welcome to CSS online class</p>
+        </div>
+
+        <div id="bootstrap" class="tabcontent" style="display:none;">
+            <h3>Bootstrap</h3>
+            <p>Welcome to Bootstrap online class.</p>
+        </div>
+
+        <div id="sass" class="tabcontent" style="display:none;">
+            <h3>Sass</h3>
+            <p>Welcome to Sass online class</p>
+
+        </div>
+
+        <div id="javascript" class="tabcontent" style="display:none;">
+            <h3>Javascript</h3>
+            <p>Welcome to Javascript online class</p>
+        </div>
+
+        <div id="jquery" class="tabcontent" style="display:none;">
+            <h3>jQuery</h3>
+            <p>Welcome to jQuery online class.</p>
+        </div>
+
+        <div id="react" class="tabcontent" style="display:none;">
+            <h3>React</h3>
+            <p>Welcome to React online class.</p>
+
+        </div>
+
+        <div id="angular" class="tabcontent" style="display:none;">
+            <h3>Angular js</h3>
+            <p>Welcome to Javascript Angular JS class</p>
+        </div>
+
+        <div id="json" class="tabcontent" style="display:none;">
+            <h3>JSON</h3>
+            <p>TWelcome to JSON online class</p>
+        </div>
+
+        <div id="ajax" class="tabcontent" style="display:none;">
+            <h3>AJAX</h3>
+            <p>Welcome to AJAX online class</p>
+
+        </div>
+
+        <div id="sql" class="tabcontent" style="display:none;">
+            <h3>SQL</h3>
+            <p>Welcome to SQL online class</p>
+        </div>
+
+        <div id="php" class="tabcontent" style="display:none;">
+            <h3>PHP</h3>
+            <p>Welcome to PHP online class</p>
+        </div>
+
+        <div id="asp" class="tabcontent" style="display:none;">
+            <h3>ASP.NET</h3>
+            <p>Welcome to ASP.NET online class</p>
+
+        </div>
+
+        <div id="node" class="tabcontent" style="display:none;">
+            <h3>Node.js</h3>
+            <p>Welcome to Node.js online class</p>
+        </div>
+
+        <div id="python" class="tabcontent" style="display:none;">
+            <h3>Python</h3>
+            <p>Welcome to Python online class</p>
+        </div>
+
+        <div id="java" class="tabcontent" style="display:none;">
+            <h3>Java</h3>
+            <p>Welcome to Java online class</p>
+
+        </div>
+
+        <div id="c++" class="tabcontent" style="display:none;">
+            <h3>C++</h3>
+            <p>Welcome to C++ online class</p>
+        </div>
+
+        <div id="c#" class="tabcontent" style="display:none;">
+            <h3>C#</h3>
+            <p>Welcome to C# online class</p>
+        </div>
+        <div id="datascience" class="tabcontent" style="display:none;">
+            <h3>Data Science with Python</h3>
+            <p>Welcome to python Data Science online class</p>
+
+        </div>
+
+        <div id="ai" class="tabcontent" style="display:none;">
+            <h3>Artificial Intelligence</h3>
+            <p>Welcome to Python Artificial Intelligence online class</p>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </main>
+
+
+    <script>
+        function openCity(evt, courseName) {
+            // Declare all variables
+            var i, tabcontent, tablinks;
+
+            // Get all elements with class="tabcontent" and hide them
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+
+            // Get all elements with class="tablinks" and remove the class "active"
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+
+            // Show the current tab, and add an "active" class to the link that opened the tab
+            document.getElementById(courseName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+    </script>
+    <script src=" https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity=" sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin=" anonymous ">
+    </script>
+    <script src=" https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js " integrity=" sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 " crossorigin=" anonymous ">
+    </script>
+    <script src=" https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js " integrity=" sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM " crossorigin=" anonymous ">
+    </script>
+
+
+
+
+    <script>
+        document.getElementById('button').addEventListener('click', function() {
+            document.querySelector('.bg-modal').style.display = 'flex';
+        });
+
+        document.querySelector('.close').addEventListener('click', function() {
+            document.querySelector('.bg-modal').style.display = "none";
+        });
+
+        /*the second one */
+
+
+        document.getElementById('button2').addEventListener('click', function() {
+            document.querySelector('.bg-modal2').style.display = 'flex';
+        });
+
+        document.querySelector('.close2').addEventListener('click', function() {
+            document.querySelector('.bg-modal2').style.display = "none";
+        });
+    </script>
+
+
+    <script type="text/javascript">
+        var Tawk_API = Tawk_API || {},
+            Tawk_LoadStart = new Date();
+        (function() {
+            var s1 = document.createElement("script"),
+                s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/5d02092bb534676f32aeb216/1dd7vrjb1';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
+    <!--counter-->
+    <script src="jquery.counterup.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script>
+        $(document).ready(function() {
+
+            $('.counter').counterUp({
+                delay: 10,
+                time: 1000
+            });
+
+        });
+    </script>
+
+</body>
+
+</html>
